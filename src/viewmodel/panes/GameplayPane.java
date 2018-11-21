@@ -224,6 +224,7 @@ public class GameplayPane extends BorderPane {
     private void doRestartAction() {
         //TODO
         try {
+            LevelManager.getInstance().resetLevelTimer();
             LevelManager.getInstance().incrementNumRestarts();
             var numRestart = LevelManager.getInstance().curGameLevelNumRestartsProperty().get();
             LevelManager.getInstance().setLevel(LevelManager.getInstance().currentLevelNameProperty().getValue());
