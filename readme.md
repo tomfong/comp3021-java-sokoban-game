@@ -1,4 +1,3 @@
->lhfongaa Third Commit: Change Commit
 # COMP3021 PA2: Sokoban
 In PA2, you will be implementing a GUI version of the Sokoban game from PA1. The core logic of the game remains more or less the same, but there are some differences that you should be aware of.
 
